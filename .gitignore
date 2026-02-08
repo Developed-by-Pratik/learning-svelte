@@ -1,0 +1,72 @@
+node_modules/
+
+# Build output / generated files
+.svelte-kit/
+.svelte-kit/*    # SvelteKit build artifacts
+.output/
+output/
+build/
+dist/
+
+# Deployment directories
+.vercel/
+.netlify/
+.wrangler/
+
+# Environment files
+.env
+.env.*             # ignore all env variants
+!.env.example      # except example files
+!.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Tooling caches
+.cache/
+.parcel-cache/
+.next/
+.turbo/
+/.cache
+/.history
+
+# Storybook
+.storybook-static/
+
+# Coverage and test output
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.log
+*.local
+*.pid
+*.seed
+*.tgz
+
+# Vite timestamp files (local)
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
